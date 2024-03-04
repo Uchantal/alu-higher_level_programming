@@ -1,4 +1,11 @@
 #!/usr/bin/python3
-def print_list_integer(my_list=[]):
-    for num in range(len(my_list)):
-        print("{:d}".format(my_list[num]))
+def safe_print_list(my_list=[], x=0):
+    func = 0
+    for i in range(x):
+        try:
+            print("{}".format(my_list[i]), end="")
+            func += 1
+        except IndexError:
+            break
+    print("")
+    return (func)
