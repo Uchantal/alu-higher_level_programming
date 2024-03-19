@@ -1,4 +1,3 @@
-#!bash/python3
-SELECT 
-* 
-FROM
+--a script that lists all databases of MySQL server.
+SHOW DATABASES
+
