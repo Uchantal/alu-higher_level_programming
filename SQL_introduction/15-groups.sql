@@ -1,2 +1,2 @@
 -- A lists the number of records.
-SELECT score (score), COUNT score AS number FROM second_table GROUP BY score ORDER BY DESC;
+SELECT score, COUNT score AS number FROM second_table GROUP BY score ORDER BY DESC;
