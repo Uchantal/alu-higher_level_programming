@@ -1,2 +1,2 @@
--- A lists all records of the table.
-SELECT name, score FROM second_table ORDER BY score DESC);
+-- A lists all the table records.
+SELECT score, name FROM second_table ORDER BY score DESC;
