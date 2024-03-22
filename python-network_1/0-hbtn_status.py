@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """This module or script
-fetches https://alu-intranet.hbtn.io/status
+fetches https://intranet.hbtn.io/status
 using the urllib library
 """
 
