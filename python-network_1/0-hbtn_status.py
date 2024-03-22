@@ -13,16 +13,3 @@ if __name__ == '__main__':
         print("\t- type: {}".format(type(content)))
         print("\t- content: {}".format(content))
         print("\t- utf8 content: {}".format(content.decode("utf-8")))
-=======
-import urllib.request
-
-url = 'https://alu-intranet.hbtn.io/status'
-
-req = urllib.request.Request(url)
-with urllib.request.urlopen(req) as response:
-    content = response.read()
-    print("Body response:")
-    print("\t- type:", type(content))
-    print("\t- content:", content)
-    print("\t- utf8 content:", content.decode("utf-8"))
->>>>>>> c5e0dc0645ac422ecb29558d225c4dca80283934
