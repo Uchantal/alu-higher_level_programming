@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-# python script that fetches 'https://intranet.hbtn.io/status'
-"""
-    fetch 'https://intranet.hbtn.io/status'
-"""
+"""Fetches https://intranet.hbtn.io/status."""
 import urllib.request
 
 
